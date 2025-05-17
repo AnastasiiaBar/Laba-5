@@ -1,7 +1,7 @@
 body {
   font-family: "Times", "Times New Roman", serif;
   padding: 20px;
-  background-color: rgb(255, 251, 248);
+  background-color: rgb(213, 228, 255);
 }
 
 .resume {
@@ -46,7 +46,7 @@ body {
 .left-name {
   font-size: 40px;
   font-weight: bold;
-  color: #d35400;
+  color: #1e0078;
   line-height: 1.1;
   border: none;
 }
@@ -100,7 +100,7 @@ h3 {
 }
 
 .bold-orange {
-  color: #d35400;
+  color: #00beff;
   font-weight: bold;
 }
 
@@ -113,7 +113,7 @@ h3 {
   display: block;
   width: 82%;
   height: 47%;
-  background-color: rgba(211, 84, 0, 0.12);
+  background-color: rgba(108, 113, 212, 0.12);
 }
 
 .empty {
@@ -129,7 +129,7 @@ h3 {
   display: block;
   width: 94%;
   height: 2px;
-  background-color: rgba(211, 84, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -159,7 +159,7 @@ h3 {
   top: 0;
   right: 11px;
   height: 100%;
-  border-right: 2px solid rgba(211, 84, 0, 0.6);
+  border-right: 2px solid rgba(255, 255, 255, 0.6);
   pointer-events: none;
 }
 
