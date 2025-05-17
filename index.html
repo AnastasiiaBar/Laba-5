@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Резюме — Анастасія Барчук</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="resume">
+
+    <section class="empty1"></section>
+
+    <section class="left-name">
+      <span>Анастасія</span><br>
+      <span>Барчук</span>
+    </section>
+
+    <section class="left-subtitle">Curriculum Vitae</section>
+
+    <section class="skills">
+      <span class="orange-line"></span>
+      <div class="section-title">Навички</div>
+      <ul>
+        <li>Аудит інформаційної безпеки</li>
+        <li>Управління ризиками</li>
+        <li>Захист даних та конфіденційності</li>
+        <li>Пентестинг</li>
+        <li>Оцінка відповідності</li>
+        <li>SIEM-системи: Splunk, QRadar</li>
+      </ul>
+    </section>
+
+    <section class="languages">
+      <span class="orange-line"></span>
+      <div class="section-title">Мови</div>
+      <ul>
+        <li>Українська</li>
+        <li>Англійська</li>
+        <li>Німецька</li>
+        <li>Російська</li>
+      </ul>
+    </section>
+
+    <section class="top-right">
+      <div class="location">
+        <p>м. Львів</p>
+      </div>
+      <div class="header-info">
+        <p><a href="mailto:anastasiia.barchuk.kb.2022@lpnu.ua">anastasiia.barchuk.kb.2022@lpnu.ua</a></p>
+        <p><a href="tel:+380980380014">+38(098)038-00-14</a></p>
+      </div>
+      <div class="empty2"></div>
+    </section>
+
+    <section class="empty"></section>
+
+    <section class="goal">
+      Отримати посаду спеціаліста з інформаційної безпеки в інноваційному підприємстві, де зможу застосувати свої знання та навички для досягнення успіху.
+    </section>
+
+    <section class="education">
+      <div class="section-title">Освіта</div>
+      <p><strong>Львівська Політехніка</strong> — вересень 2022 – травень 2026</p>
+      <p>Бакалавр з кібербезпеки, факультет Інформаційних технологій</p>
+    </section>
+
+    <section class="experience">
+      <div class="section-title">Досвід роботи</div>
+      <p><strong>Нова Пошта</strong> — Спеціаліст з інформаційної безпеки (2025 – дотепер)</p>
+      <ul>
+        <li>Аудит інформаційної безпеки підприємства</li>
+        <li>Формування множини загроз</li>
+        <li>Рекомендації щодо покращення захисту</li>
+      </ul>
+      <p><strong>SoftServe</strong> — Стажер з ІБ (2023 – 2024)</p>
+      <ul>
+        <li>Аналіз вразливостей у ПЗ</li>
+        <li>Тестування на проникнення</li>
+        <li>Звіти з кібербезпеки</li>
+      </ul>
+    </section>
+
+  </div>
+  
+  <section id="comments-section">
+  <div class="section-title">Відгуки роботодавців</div>
+  <ul id="comments-list"></ul>
+  </section>
+  
+
+  <div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <h2>Зворотний зв'язок</h2>
+    <form action="https://formspree.io/f/xjkwrgba" method="POST">
+      <label>Ім’я: <input type="text" name="name" required></label><br>
+      <label>Email: <input type="email" name="email" required></label><br>
+      <label>Телефон: <input type="tel" name="phone" required></label><br>
+      <label>Повідомлення: <textarea name="message" required></textarea></label><br>
+      <button type="submit">Відправити</button>
+    </form>
+    <button id="closeModal">Закрити</button>
+  </div>
+  </div>
+
+  <label style="position: fixed; top: 20px; right: 20px; z-index: 1001;">
+  <input type="checkbox" id="themeToggle"> Нічний режим
+  </label>
+  
+  <footer id="site-footer" style="margin-top: 40px; font-size: 14px; color: #555;"></footer>
+  <script src="main.js"></script>
+</body>
+</html>
